@@ -105,7 +105,7 @@ func startScraper(_ *cli.Context) error {
 
 	logger.Info("Startup completed")
 
-	s := NewScraper()
+	s := newScraper()
 	cache := session.NewSessionCache(cfg, fips, logger)
 
 	ctx, cancelRunningScrape := context.WithCancel(context.Background())

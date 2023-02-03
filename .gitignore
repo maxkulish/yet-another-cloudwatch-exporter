@@ -4,3 +4,6 @@ vendor
 dist
 /yace
 .idea
+coverage.out
+config.yml
+bin/

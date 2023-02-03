@@ -7,3 +7,6 @@ Jenkinsfile
 README.md
 vendor/
 charts/
+coverage.out
+config.yml
+bin/
